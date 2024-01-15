@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='style.css'>
+    <title>Document</title></head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@100;300;700;900&display=swap" rel="stylesheet">
+
+<body>
+    <div id="hero" class="background-taco">
+
+        <div  class="hero">
+            <h1>DON PEPE'S</h1>
+            <a  href="#section2" ><i class="fa-solid fa-chevron-down"></i></a>
+        </div>
+
+        <nav id="nav" class="">
+            <ul class="">
+                <li id="logo">
+                    <h1>DON PEPE'S</h1>
+                    <p>Gourmet Burritos & Tacos</p>
+                </li>
+                <!-- <li>Home</li> -->
+                <li><a href="#hero" hx-get="/home.html" hx-target="#section2">Home</a></li>
+                <li><a href="#section2" hx-get="/menu.html" hx-target="#section2">Menu</a></li>
+                <!-- <li><a href="/contact.html#section2">Contact</a></li> -->
+                <li><a href="#section2" hx-get="/contact.html" hx-target="#section2">Contact</a></li>
+                <li>Order Online</li>
+            </ul>
+        </nav>
+        
+    </div>
+    <main id="section2" class="section2">
+        <div class="container sec2">
+            <h1>Gourmet Burritos & Tacos</h1>
+            <div class="sec2-row">
+                <p>Don Pepe’s provides high-quality food and services with generous portions at reasonable prices. We are <b>passionate</b> about cooking and we specialize in gourmet Mexican food while providing a fast-casual dining atmosphere. We use only the freshest and quality ingredients to provide a unique and memorable gastronomic experience.</p>
+                <img src="/imgs/burrito.jpg" alt="taco bowl" srcset="">
+        
+            </div>
+            <div class="sec2-row">
+                <img src="/imgs/tacobowl.jpg " alt="burrito" srcset="">
+                <p>We focus on providing healthy and delicious food without losing the rich flavors of Mexican cuisine. We also place high emphasis on customer service, as we are always looking for ways to show our guests how valuable they are whenever they dine with us – and this makes Don Pepe’s the home for Best Burritos and Bowls Under One Roof.</p>
+            </div>
+        </div>
+    </main>
+        <div class="socials">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <img src="imgs/sombrero/3.png" alt="sombrero">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
+    <script src="https://kit.fontawesome.com/ca2571f2cd.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/htmx.org@1.9.9"></script>
+
+</body>
+</html>
